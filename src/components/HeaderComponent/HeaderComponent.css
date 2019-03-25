@@ -1,0 +1,41 @@
+.header-component {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.header-component-active {
+    color: #fff;
+}
+
+.header-component-active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.header-component .content-container {
+    position: relative;
+}
+
+.header-component-active  .form__input {
+    color: #fff;
+}
+
+.site-to-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.site-to-download h3 {
+    margin: 0;
+}

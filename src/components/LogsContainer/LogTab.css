@@ -1,0 +1,57 @@
+.tab-content {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 15px;
+}
+
+.tab-content div {
+    font-family: inherit;
+    font-size: 16px;
+    margin-bottom: 5px;
+    overflow-y: auto;
+}
+
+.tab-content div::-webkit-scrollbar {
+    height: 4px;
+}
+ 
+.tab-content div::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  outline: 1px solid #009688;
+  border-radius: 20px;
+}
+
+.tabs-nav li {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tabs-nav__btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.tabs-nav__btn:focus,
+.tabs-nav__btn:active {
+    background: none;
+}
+
+.tabs-nav__btn_active:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+}

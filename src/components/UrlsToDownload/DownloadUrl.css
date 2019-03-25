@@ -1,0 +1,29 @@
+.download-url {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.download-url p {
+    text-align: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 540px;
+    white-space: nowrap;
+}
+
+.download-url p::-webkit-scrollbar {
+    width: 7px;
+    height: 3px;
+}
+ 
+.download-url p::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  outline: 1px solid #009688;
+  border-radius: 20px;
+}
+
+.download-url a {
+    margin-left: 50px;
+}

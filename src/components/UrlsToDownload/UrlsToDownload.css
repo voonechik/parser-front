@@ -1,0 +1,85 @@
+.url-list-wrap {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.url-list-wrap form {
+    text-align: center;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.form-header input {
+    max-width: 520px;
+}
+
+.form-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.url-list-wrap h3 {
+    text-align: center;
+}
+
+.url-list-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.url-list-inner input {
+    max-width: 500px;
+}
+
+.url-list-inner a {
+    margin-left: 50px
+}
+
+.url-list-wrap form {
+    margin-top: 20px;
+}
+
+.url-list-wrap .btn-large {
+    margin: 50px auto;
+    display: block;
+}
+
+.checkbox-paragraph {
+    margin-bottom: 40px
+}
+
+.download-btn-wrap {
+    text-align: center;
+}
+
+.download-site {
+    display: inline-block;
+    margin: 40px auto;
+}
+
+.form-footer {
+    position: relative;
+}
+
+.form-send {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.form-body::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+.form-body::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  outline: 1px solid #009688;
+  border-radius: 20px;
+}
